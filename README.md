@@ -1,16 +1,23 @@
-# 💳 Financial Fraud Detection using Machine Learning
+# Credit Card Fraud Detection Using Machine Learning
 
-## Overview
-This project detects fraudulent financial transactions using classification models.
+This project uses machine learning to detect fraudulent credit card transactions. 
+The dataset contains highly imbalanced transaction data, where fraud cases are much fewer than normal transactions.
 
-## Models
+## Objectives
+- Explore transaction data
+- Handle class imbalance
+- Train classification models
+- Evaluate fraud detection performance using precision, recall, F1-score, and ROC-AUC
+
+## Models Used
 - Logistic Regression
 - Random Forest
-- XGBoost
+- Gradient Boosting
 
-## Results
-- Achieved high recall in detecting fraud cases
-- Balanced precision and recall using class imbalance techniques
-
-## Tools
-Python, Scikit-learn, Pandas
+## Key Skills Demonstrated
+- Data cleaning
+- Exploratory data analysis
+- Classification
+- Imbalanced data handling
+- Model evaluation
+- Python machine learning workflow
